@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>char & word count</title>
+  </head>
+  <body>
+    <div class="mainDiv">
+      <h2>CHARACTER COUNTER</h2>
+      <textarea
+        placeholder="type here..."
+        onkeyup="countFun()"
+        id="words"
+      ></textarea>
+      <div class="result">
+        <h3>Characters</h3>
+        <h3 id="charCount" class="char"></h3>
+        <h3>Words</h3>
+        <h3 id="wordcount" class="char"></h3>
+      </div>
+    </div>
+    <script src="cahrCount.js"></script>
+  </body>
+</html>
